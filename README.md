@@ -8,13 +8,15 @@ The environment used for training is the frozen lake environement that you can e
 
 In short it's a 2D grid (4 x 4 = 16 cells) like the following :
 
-SFFF       (S: starting point, safe)
+SFFF       
 
-FHFH       (F: frozen surface, safe)
+FHFH       
 
-FFFH       (H: hole, fall to your doom)
+FFFH       
 
-HFFG       (G: goal, where the frisbee is located)
+HFFG       
+
+(S: starting point, safe) (F: frozen surface, safe) (H: hole, fall to your doom) (G: goal, where the agent must get)
 
 The agent must learn to reach the goal cell (G) starting from the cell (S) and taking only the frozen cells (F) and avoiding the holes (H). 
 
