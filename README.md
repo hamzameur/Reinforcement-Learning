@@ -21,3 +21,5 @@ HFFG
 The agent must learn to reach the goal cell (G) starting from the cell (S) and taking only the frozen cells (F) and avoiding the holes (H). 
 
 The difficulty of the task lies in the stochastic nature of the environment. As a matter of fact, when an agent takes a step (up, down, left, right), it is not sure about where it ends up. In fact since the floor is frozen, the agent might slip into a neighboring cell !  
+
+In the Q_learning.ipynb notebook we reach a success rate of ~ 76%
